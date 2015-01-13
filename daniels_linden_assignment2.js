@@ -13,3 +13,5 @@ var stringHolder = "I'm a string.",
     myNum = 7,
     myBoolean = true
 ;
+
+console.log("Added line of code in my branch.");
