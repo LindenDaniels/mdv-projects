@@ -9,8 +9,7 @@ SDI1501
 Project 2
 */
 
-var myString = "I'm a string.",
+var stringHolder = "I'm a string.",
     myNum = 7,
-    my Boolean = true;
-    
- ((p && q))
+    myBoolean = true
+;
