@@ -1,3 +1,5 @@
+
+//DON'T FORGET TO WORK WITHIN THE BRANCH!!!
 //AND (p && q), OR (p || q), NOT (!p), XOR (Either or but not both.) (p || q && !(p && q)
 
 //alert("JavaScript works!"); I'm code that's been commented out.
@@ -13,5 +15,3 @@ var stringHolder = "I'm a string.",
     myNum = 7,
     myBoolean = true
 ;
-
-console.log("Added line of code in my branch.");
