@@ -12,11 +12,25 @@ OR (p || q)
 NOT (!p) 
 XOR (Either or but not both.) (p || q && !(p && q)
 
+if/else spacing:
+
+if (myAge >= 0 && myAge <= 10)
+{
+	document.write("myAge is between 0 and 10<br />");
+	if (myAge == 5)
+	{
+		document.write("You're 5 years old.");
+	}
+	
+}
+else
+{
+	document.write("myAge is not between 0 and 10.");
+}
+
 */
 
-//alert("JavaScript works!"); I'm code that's been commented out.
-//console.log("I would be a string with code, but I'm commented out too!) //Add comments to code like this!
-// Below is an example of a block quote. It looks fancier than using multiple lines of //.
+		
 
 /*
 Linden Daniels
