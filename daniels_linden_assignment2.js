@@ -59,28 +59,23 @@ var sex = prompt ("Congratulations! You have just brought " +
 "Chihuahua and a Rat Terrier. Is your puppy a male or female?"); 
 
 if (sex === "male")
-{
-	alert ("You've chosen a male puppy.");
-	if (sex === "female")
 	{
-	alert ("You've chosen a female puppy.");
-	} // male
+		alert ("You've chosen a male puppy.");
+	}
+		if (sex === "female")
+			{
+			alert ("You've chosen a female puppy.");
+			
+
+ 	} else {
+		
+		while (sex != "male" && sex != "female")
 	
-} // if sex
+			var sex = 
+			prompt ("I do not understand. " + 
+			"Try answering in small letters only. " + 
+			"Is your puppy a male or female?");
 
-else
-
-{
-	while (sex != "male" && sex != "female")
-{ 
-		var sex = 
-		prompt ("I do not understand. Try answering in " + 
-		"small letters only. " +
-		"Is your puppy a male or female?");
-
-} // invalid entry
-
-
-} // else	
+} // invalid entry	
 
 
