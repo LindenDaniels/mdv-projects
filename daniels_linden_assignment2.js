@@ -36,6 +36,8 @@ var getArea = function (){}; does not automatically run,
 if () {}; code executed immediately
 for () {}; executed immediately, runs multiple times
 
+getArea();
+
 */
 
 		
@@ -48,26 +50,37 @@ Project 2
 
 var stringHolder = "I'm a string.",
     myNum = 7,
-    myBoolean = true
+    sex = true
 ;
 
-var degFahren = new Array (212, 32, - 459.15);
-var degCent = new Array();
-var loopCounter;
+var sex = prompt ("Congratulations! You have just brought " +
+"home a new Toy Fox Terrier puppy. These dogs are small, " +
+"black and white or brown, and resemble a mix between a " +
+"Chihuahua and a Rat Terrier. Is your puppy a male or female?"); 
 
-for (loopCounter = 0; loopCounter <= 2;
-loopCounter++)
+if (sex === "male")
 {
-	degCent[loopCounter] = 5/9 *
-(degFahren[loopCounter] - 32);
-}
+	alert ("You've chosen a male puppy.");
+	if (sex === "female")
+	{
+	alert ("You've chosen a female puppy.");
+	} // male
+	
+} // if sex
 
-for (loopCounter = 2; loopCounter >= 0;
-loopCounter--)
+else
+
 {
-	document.write("Value " + loopCounter + " was " + 
-	degFahren[loopCounter] + 
-	" degrees Fahrenheit");
-		document.write(" which is " + degCent[loopCounter] +
-		" degrees centigrade<br />");
-}
+	while (sex != "male" && sex != "female")
+{ 
+		var sex = 
+		prompt ("I do not understand. Try answering in " + 
+		"small letters only. " +
+		"Is your puppy a male or female?");
+
+} // invalid entry
+
+
+} // else	
+
+
