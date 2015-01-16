@@ -53,37 +53,26 @@ var stringHolder = "I'm a string.",
     sex = true
 ;
 
-
-
-	var sex = prompt ("Congratulations! You have just brought " +
+while (sex != "male" && sex != "female")
+	
+			var sex = prompt ("Congratulations! You have just brought " +
 					"home a new Toy Fox Terrier puppy. These dogs are small, " +
 					"black and white or brown, and resemble a mix between a " +
-					"Chihuahua and a Rat Terrier. Is your puppy a male or female?"); 
+					"Chihuahua and a Rat Terrier. Is your puppy a male or female?");
+					
+				var chooseSex = function(){	if (sex === "male")
+											{
+												alert ("You've chosen a male puppy.");
+											}
+											if (sex === "female")
+											{
+											alert ("You've chosen a female puppy.");
+											
+							} }
 
-var chooseSex = function(){	if (sex === "male")
-		{
-			alert ("You've chosen a male puppy.");
-		}
-			if (sex === "female")
-				{
-					alert ("You've chosen a female puppy.");
-			
 
- 	} else {
-		
-		while (sex != "male" && sex != "female")
-	
-			var sex = 
-			prompt ("I do not understand. " + 
-			"Try answering in small letters only. " + 
-			"Is your puppy a male or female?");
-return;
-//} //invalid entry
-//} // function
 
-}
-
-} ; chooseSex();
+ chooseSex();
 
 
 
