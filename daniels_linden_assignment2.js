@@ -53,14 +53,14 @@ var stringHolder = "I'm a string.",
     sex = true
 ;
 
-var chooseSex = function(){
+
 
 	var sex = prompt ("Congratulations! You have just brought " +
 					"home a new Toy Fox Terrier puppy. These dogs are small, " +
 					"black and white or brown, and resemble a mix between a " +
 					"Chihuahua and a Rat Terrier. Is your puppy a male or female?"); 
 
-	if (sex === "male")
+var chooseSex = function(){	if (sex === "male")
 		{
 			alert ("You've chosen a male puppy.");
 		}
@@ -73,16 +73,19 @@ var chooseSex = function(){
 		
 		while (sex != "male" && sex != "female")
 	
-			/*var sex = 
+			var sex = 
 			prompt ("I do not understand. " + 
 			"Try answering in small letters only. " + 
-			"Is your puppy a male or female?"); */
+			"Is your puppy a male or female?");
+return;
 //} //invalid entry
 //} // function
 
-chooseSex(); } }
+}
 
-chooseSex();
+} ; chooseSex();
+
+
 
 
 
