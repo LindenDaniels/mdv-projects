@@ -73,14 +73,17 @@ var chooseSex = function(){
 		
 		while (sex != "male" && sex != "female")
 	
-			var sex = 
+			/*var sex = 
 			prompt ("I do not understand. " + 
 			"Try answering in small letters only. " + 
-			"Is your puppy a male or female?");
+			"Is your puppy a male or female?"); */
+//} //invalid entry
+//} // function
 
-} //invalid entry
-} // function
+chooseSex(); } }
 
 chooseSex();
+
+
 
 
