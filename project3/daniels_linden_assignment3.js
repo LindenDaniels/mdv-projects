@@ -1,19 +1,16 @@
-var pupWeights = ["15, 5, 6, 10, 8, 20"];
+var pupWeights = [ 15, 25, 10, 11, 6, 8 ];
 
-for (var i = 0; i < pupWeights.length; i++) {
+var myMean = function () {
 
-var myMean = (15 * 5 * 6 * 10 * 8 * 20) /i
+  while (var i = 0; i < pupWeights.length; i++); {
 
-console.log(myMean);
-
-
-console.log(i);
-
-//var mySum = i
-//var myMean = mySum / pupWeights.length
-
-//console.log(myMean);
-
-
-
+	var pupWeight = pupWeights[i],
+		sum = sum + pupWeight,
+		mean = sum / pupWeights.length;
+	
+return mean;
+  }
 };
+
+
+myMean();
